@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 25px;
+    opacity: .2;
+}
+h2#counter{
+    margin: 20px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: .5;
+}
+p#doekoe{
+    color: green;
+    font-size: 50px;
+}
+p#doekoe::before{
+    content: '€€€  ';
+    color: green;
+}
+p#doekoe::after{
+    content: ',-';
+    color: green;
+}
